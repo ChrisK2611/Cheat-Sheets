@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Puff;
+    src: url("/font/DynaPuff-VariableFont_wdth\,wght.ttf");
+}
+
+html {
+    font-family: "Puff", sans-serif;
+    background: url("/img/GitHub___headpic.webp");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+header .logo img {
+    width: 75px;
+    height: 75px;
+}
+
+header nav img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    margin-right: 25px;
+}
+
+h1 {
+    text-align:center;
+    font-size: 5rem;
+    margin-bottom: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    color: black;
+}
+
+.link:hover {
+    font-size:20px ;
+    text-decoration: underline;
+    transition: all 1.5s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 50px 0 150px 0;
+}
+
+.verzeichnis li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+li a {
+    color: white;
+}
+
+li:hover a {
+    color: aqua;
+    transition: all 1.5s ease-in-out;
+}
+
+h4 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+h6 {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+p {
+    color: rgb(4, 153, 253);
+    margin-bottom: 15px;
+}
+
+.left-block {
+    background-color:  rgba(211, 211, 211, 0.537);
+    width: 750px;
+    height: 275px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.setup p {
+    color: rgb(93, 87, 87);
+}
+
+.setup li {
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.right-block {
+    background-color:  rgba(211, 211, 211, 0.537);
+    width: 750px;
+    height: 275px;
+    border-radius: 20px;
+    text-align: center;
+}
+    
+    
+
+.right-block div h4 + h6 {
+    text-align: center;
+
+}
+
+.init p {
+    color: rgb(93, 87, 87);
+}
+
+.init li {
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.seite3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-block:hover {
+    box-shadow: 8px 6px 7px 3px rgba(0, 0, 0, 0.88);
+    transition: all 0.5s ease-in-out;
+}
+.left-block:hover {
+    box-shadow: -8px 6px 7px 3px rgba(0, 0, 0, 0.88);
+    transition: all 0.5s ease-in-out;
+}
+
+.seite4 {
+    display: block;
+    text-align: center;
+}
+
+.merge p{
+    color: rgb(4, 0, 121);
+}
+
+.merge li {
+    font-size: 1.2rem;
+    list-style: none;
+}
+    
+
+
+
+
+
